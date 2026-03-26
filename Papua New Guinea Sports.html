@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)file:///C:/Users/260136/Documents/emex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papua New Guinea Sports</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #d32f2f 0%, #ff6f00 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0 1.5rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ff6f00;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        section h2 {
+            color: #d32f2f;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #ff6f00;
+            padding-bottom: 0.5rem;
+        }
+        
+        .sports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        
+        .sport-card {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #ff6f00;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .sport-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .sport-card h3 {
+            color: #d32f2f;
+            margin-bottom: 0.5rem;
+        }
+        
+        .team-card {
+            background: white;
+            border: 2px solid #ff6f00;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .team-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .team-card h4 {
+            color: #d32f2f;
+            margin-bottom: 0.5rem;
+        }
+        
+        .athlete-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .athlete-card {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .athlete-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .athlete-card h4 {
+            color: #d32f2f;
+            margin-bottom: 0.3rem;
+        }
+        
+        .athlete-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .event-list {
+            list-style-position: inside;
+            margin-top: 1rem;
+        }
+        
+        .event-list li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+        
+        .event-list li:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .highlight {
+            color: #ff6f00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🏆 Papua New Guinea Sports</h1>
+        <p>Celebrating the Spirit of Competition in the Pacific</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/260136/Documents/emex.html#overview">Overview</a></li>
+            <li><a href="file:///C:/Users/260136/Documents/emex.html#popular-sports">Popular Sports</a></li>
+            <li><a href="file:///C:/Users/260136/Documents/emex.html#teams">National Teams</a></li>
+            <li><a href="file:///C:/Users/260136/Documents/emex.html#athletes">Athletes</a></li>
+            <li><a href="file:///C:/Users/260136/Documents/emex.html#events">Events</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Papua New Guinea is a vibrant Pacific nation with a rich sporting culture. The country has produced exceptional athletes and maintains a passionate following for various sports including rugby league, Australian rules football, cricket, and athletics. The nation competes in regional and international sporting events, showcasing the talent and determination of PNG athletes.</p>
+            <p style="margin-top: 1rem;">Sports play an integral role in PNG society, bringing communities together and inspiring the youth of the nation to pursue excellence.</p>
+
+        </section>
+        
+        <section id="popular-sports">
+            <h2>Popular Sports</h2>
+            <div class="sports-grid">
+                <div class="sport-card">
+                    <h3>🏉 Rugby League</h3>
+                    <p>Rugby league is one of PNG's most beloved sports. The national team, the Kumuls, competes in international tournaments and has a strong presence in the Pacific Rugby League Cup.</p>
+                    <img src="./Papua New Guinea Sports_files/kumuls.png" width="290px" height="250px">
+                   
+                </div>
+                
+                <div class="sport-card">
+                    <h3>🏈 Australian Rules Football</h3>
+                    <p>AFL has grown significantly in popularity. PNG has a dedicated following and participates in international AFL competitions and development programs.</p>
+                    <img src="./Papua New Guinea Sports_files/austalian rules football.png" width="290px" height="250px">                   
+                
+                </div>
+                
+                <div class="sport-card">
+                    <h3>🏏 Cricket</h3>
+                    <p>Cricket is gaining momentum with PNG's national cricket team competing in ODI and T20 formats. The sport attracts young talent across the archipelago.</p>
+                    <img src="./Papua New Guinea Sports_files/cricket.png" width="290px" height="250px">
+                    
+                </div>
+                <div class="sport-card">
+                    <h3>🏃 Athletics</h3>
+                    <p>Track and field events showcase PNG's sprinting and distance running talent. Athletes regularly compete in Pacific regional championships.</p>
+                    <img src="./Papua New Guinea Sports_files/athletics in pom.png" width="290px" height="250px">
+                </div>
+                <div class="sport-card">
+                    <h3>🥊 Boxing</h3>
+                    <p>Boxing has produced several notable fighters from Papua New Guinea who have competed at regional and international levels.</p>
+                    <img src="./Papua New Guinea Sports_files/boxing.png" width="290px" height="250px">
+                </div>
+                <div class="sport-card">
+                    <h3>⚽ Football (Soccer)</h3>
+                    <p>Association football continues to grow with grassroots programs developing young talent for the national team and regional competitions.</p>
+                    <img src="./Papua New Guinea Sports_files/soccerin.png" width="290px" height="250px">
+                </div>
+            </div>
+        </section>
+        
+        <section id="teams">
+            <h2>National Teams</h2>
+            
+            <div class="team-card">
+                <h4>Kumuls - Rugby League National Team</h4>
+                <p><strong>Coach:</strong> Jason Demetriou</p>
+                <p><strong>Achievements:</strong>The kumuls played their first-ever international matches against England on July 6,1975,at Lloyd Robson in Port Moresby,winning 40-12. They have become regular participants in World Cup tournaments and the Pacific Rugby League Cup.The team first competed in the Rugby League World Cup in the 1985-89 competition and made history by finishing top of their pool in the 2000 World Cup,qualifying for the quarter-finals for the first time. The team has shown impressive development and competitive spirit. The team aims to take their place in Australia's National Rugby League competition by 2028, showcasing the growing potential of Papua New Guinea. The Kumuls achievements reflect the passion and dedication of the players and the support of the Papua New Guinea community. Their success is a testament to the hard work and commitment of everyone involved.  </p>
+                <p><strong>Notable: </strong>PNG reached the Rugby League World Cup quarterfinals in recent tournaments.</p>
+            </div>
+            
+            <div class="team-card">
+                <h4>National Cricket Team</h4>
+                <p><strong>Status:</strong> Associates with the International Cricket Council (ICC)</p>
+                <p><strong>Participation:</strong> Competes in T20 World Cup qualifiers and regional cricket tournaments.</p>
+                <p><strong>Development:</strong> Investment in cricket infrastructure and talent development programs across the nation.</p>
+                
+            </div>
+            
+            <div class="team-card">
+                <h4>National Football (Soccer) Team</h4>
+                <p><strong>Nickname:</strong> The Nati</p>
+                <p><strong>Competition:</strong> Participates in AFC (Asian Football Confederation) and OFC (Oceania Football Confederation) competitions.</p>
+                <p><strong>Goal:</strong> Building a stronger domestic league and developing future national team players.</p>
+            </div>
+            
+            <div class="team-card">
+                <h4>AFL Nacional Team</h4>
+                <p><strong>Flag:</strong> Papua New Guinea makes a strong showing in Australian Rules Football.</p>
+                <p><strong>International:</strong> Participates in international AFL championships and exhibition matches.</p>
+                <p><strong>Growth:</strong> AFL grassroots programs are expanding throughout the country.</p>
+            </div>
+        </section>
+        
+        <section id="athletes">
+            <h2>Notable Athletes</h2>
+            <div class="athlete-grid">
+                <div class="athlete-card">
+                    <h4>Alex Johnston</h4>
+                    <p><span class="highlight">Rugby League</span></p>
+                    <p>Talented rugby league player representing PNG on the international stage.</p>
+                   C:\Users\Admin\Downloads\kum 
+                </div>
+                <div class="athlete-card">
+                    <h4>Sonia Ghadie</h4>
+                    <p><span class="highlight">Sports Personality</span></p>
+                    <p>Prominent figure in PNG sports and community development initiatives.</p>
+                </div>
+                <div class="athlete-card">
+                    <h4>David Tsokamocha</h4>
+                    <p><span class="highlight">Cricket</span></p>
+                    <p>Rising cricket talent contributing to PNG's international cricket presence.</p>
+                </div>
+                <div class="athlete-card">
+                    <h4>Kula Nauruan</h4>
+                    <p><span class="highlight">Track &amp; Field</span></p>
+                    <p>Competed in Pacific regional athletics championships in sprinting events.</p>
+                </div>
+                <div class="athlete-card">
+                    <h4>Lae Football Club Stars</h4>
+                    <p><span class="highlight">Football/Soccer</span></p>
+                    <p>Talented players from Lae representing PNG in domestic and regional football.</p>
+                </div>
+                <div class="athlete-card">
+                    <h4>Rapt Vagi</h4>
+                    <p><span class="highlight">Rugby League</span></p>
+                    <p>Skilled rugby league athlete contributing to the strength of PNG teams.</p>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section id="events">
+            <h2>Major Sporting Events</h2>
+            <div style="margin-top: 1.5rem;">
+                <h3 style="color: #d32f2f; margin-bottom: 1rem;">International Competitions</h3>
+                <ul class="event-list">
+                    <li><strong>Rugby League World Cup:</strong> PNG's Kumuls regularly compete in this premier international tournament</li>
+                    <li><strong>ICC Cricket World Cup Qualifiers:</strong> National cricket team pursuit of full international status</li>
+                    <li><strong>Pacific Games:</strong> Multi-sport event featuring athletes from across the Pacific region</li>
+                    <li><strong>Commonwealth Games:</strong> PNG sends delegations to compete in various sports</li>
+                    <li><strong>AFC Asian Cup Qualifiers:</strong> National football team competing for qualification</li>
+                    <li><strong>AFL International Championships:</strong> Growing participation in Australian Rules Football</li>
+                </ul>
+            </div>
+            <div style="margin-top: 2rem;">
+                <h3 style="color: #d32f2f; margin-bottom: 1rem;">Domestic Competitions</h3>
+                <ul class="event-list">
+                    <li><strong>PNG National Rugby League:</strong> Professional and semi-professional rugby league competition</li>
+                    <li><strong>PNG Football Association League:</strong> Top-tier domestic football competition</li>
+                    <li><strong>National Athletics Championships:</strong> Premier track and field event</li>
+                    <li><strong>PNG Cricket Prime Minister's Cup:</strong> National domestic cricket tournament</li>
+                    <li><strong>Provincial Sports Competitions:</strong> Inter-provincial competitions across all regions</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2026 Papua New Guinea Sports. All rights reserved.</p>
+        <p>Celebrating Athletic Excellence | Building Strong Communities | Inspiring Future Champions</p>
+    </footer>
+
+
+</body></html>
